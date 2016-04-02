@@ -8,7 +8,8 @@
 
 #import "XBTableViewController.h"
 #import "XBPhotoCell.h"
-
+#import "XBCellDataSource.h"
+#import "XBPhoto.h"
 
 static NSString * const reuseIdentifier = @"photoCell";
 
@@ -16,6 +17,8 @@ static NSString * const reuseIdentifier = @"photoCell";
 @interface XBTableViewController ()
 
 @property (nonatomic, strong) NSArray *photos;
+
+@property (nonatomic, strong) XBCellDataSource *cellDataSource;
 
 @end
 
@@ -26,7 +29,19 @@ static NSString * const reuseIdentifier = @"photoCell";
 - (NSArray *)photos {
     
     if (_photos == nil) {
-        _photos = @[@"桃谷绘里香", @"水岛津实", @"小泽玛利亚", @"苍井空"];
+        
+        
+        XBPhoto *photo1 = [XBPhoto new];
+        XBPhoto *photo2 = [XBPhoto new];
+        XBPhoto *photo3 = [XBPhoto new];
+        XBPhoto *photo4 = [XBPhoto new];
+        photo1.name = @"桃谷绘里香";
+        photo2.name = @"水岛津实";
+        photo3.name = @"小泽玛利亚";
+        photo4.name = @"苍井空";
+        
+        _photos = @[photo1, photo2, photo3, photo4];
+        
     }
     return _photos;
 }
@@ -35,31 +50,24 @@ static NSString * const reuseIdentifier = @"photoCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    TableViewCellConfigureBlock configureCell = ^(XBPhotoCell *cell, XBPhoto *photo) {
+        
+        [cell configureForPhoto:photo];
+    };
+    
+    self.cellDataSource = [[XBCellDataSource alloc]initWithDatas:self.photos cellIdentifier:reuseIdentifier configureCellBlock:configureCell];
+    
+    
+    self.tableView.dataSource = self.cellDataSource;
+    
+    
     [self.tableView registerClass:[XBPhotoCell class] forCellReuseIdentifier:reuseIdentifier];
 
 }
 
 
 
-#pragma mark - Table view data source
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
-    
-    return self.photos.count;
-}
-
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    
-    XBPhotoCell *cell = [tableView dequeueReusableCellWithIdentifier:reuseIdentifier forIndexPath:indexPath];
-    
-    NSString *photo = self.photos[indexPath.row];
-    
-    cell.textLabel.text = photo;
-    
-    return cell;
-}
 
 
 @end

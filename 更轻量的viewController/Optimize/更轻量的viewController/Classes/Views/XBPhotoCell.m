@@ -7,6 +7,8 @@
 //
 
 #import "XBPhotoCell.h"
+#import "XBPhoto.h"
+
 
 @implementation XBPhotoCell
 
@@ -15,6 +17,13 @@
     
     
 }
+
+- (void)configureForPhoto:(XBPhoto *)photo {
+    
+    self.textLabel.text = photo.name;
+    
+}
+
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];

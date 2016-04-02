@@ -14,6 +14,8 @@
 		C58459311CAECA0400F5DD71 /* XBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C58459301CAECA0400F5DD71 /* XBAppDelegate.m */; };
 		C58459341CAECA2700F5DD71 /* XBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C58459331CAECA2700F5DD71 /* XBTableViewController.m */; };
 		C58459371CAECCE000F5DD71 /* XBPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C58459361CAECCE000F5DD71 /* XBPhotoCell.m */; };
+		C584593E1CAF8B9600F5DD71 /* XBCellDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = C584593D1CAF8B9600F5DD71 /* XBCellDataSource.m */; };
+		C5DBF0531CAF951800FF8F4B /* XBPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DBF0521CAF951800FF8F4B /* XBPhoto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		C58459331CAECA2700F5DD71 /* XBTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBTableViewController.m; sourceTree = "<group>"; };
 		C58459351CAECCE000F5DD71 /* XBPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPhotoCell.h; sourceTree = "<group>"; };
 		C58459361CAECCE000F5DD71 /* XBPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPhotoCell.m; sourceTree = "<group>"; };
+		C584593C1CAF8B9600F5DD71 /* XBCellDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBCellDataSource.h; sourceTree = "<group>"; };
+		C584593D1CAF8B9600F5DD71 /* XBCellDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBCellDataSource.m; sourceTree = "<group>"; };
+		C5DBF0511CAF951800FF8F4B /* XBPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBPhoto.h; sourceTree = "<group>"; };
+		C5DBF0521CAF951800FF8F4B /* XBPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBPhoto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 		C584592B1CAEC9F700F5DD71 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C5DBF0511CAF951800FF8F4B /* XBPhoto.h */,
+				C5DBF0521CAF951800FF8F4B /* XBPhoto.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,6 +118,8 @@
 		C584592C1CAEC9F700F5DD71 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				C584593C1CAF8B9600F5DD71 /* XBCellDataSource.h */,
+				C584593D1CAF8B9600F5DD71 /* XBCellDataSource.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -206,8 +216,10 @@
 			files = (
 				C58459371CAECCE000F5DD71 /* XBPhotoCell.m in Sources */,
 				C58459311CAECA0400F5DD71 /* XBAppDelegate.m in Sources */,
+				C5DBF0531CAF951800FF8F4B /* XBPhoto.m in Sources */,
 				C58459111CAEC91700F5DD71 /* main.m in Sources */,
 				C58459341CAECA2700F5DD71 /* XBTableViewController.m in Sources */,
+				C584593E1CAF8B9600F5DD71 /* XBCellDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

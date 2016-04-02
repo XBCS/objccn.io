@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class XBPhoto;
+
 @interface XBPhotoCell : UITableViewCell
 
+- (void)configureForPhoto:(XBPhoto *)photo;
 
 @end
