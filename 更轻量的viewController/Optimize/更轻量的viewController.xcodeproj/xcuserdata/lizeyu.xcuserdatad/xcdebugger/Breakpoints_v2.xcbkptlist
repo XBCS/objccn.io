@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController/Classes/Others/XBCellDataSource.m"
+            timestampString = "481270748.383877"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController/Classes/Controlles/XBTableViewController.m"
+            timestampString = "481270787.03118"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController/Classes/Others/XBCellDataSource.m"
+            timestampString = "481270812.393549"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-tableView:numberOfRowsInSection:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController/Classes/Others/XBCellDataSource.m"
+            timestampString = "481270815.338552"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "-dataWithIndexPath:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController/Classes/Controlles/XBTableViewController.m"
+            timestampString = "481270916.127698"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[XBTableViewController viewDidLoad]"
+                  moduleName = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lizeyu/Blogs/gitHub%E4%B8%AA%E4%BA%BA%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/objccn.io/%E6%9B%B4%E8%BD%BB%E9%87%8F%E7%9A%84viewController/Optimize/%E6%9B%B4%E8%BD%BB%E9%87%8F%E7%9A%84viewController/Classes/Controlles/XBTableViewController.m"
+                  timestampString = "481270924.117916"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "54"
+                  endingLineNumber = "54"
+                  offsetFromSymbolStart = "61">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__36-[XBTableViewController viewDidLoad]_block_invoke"
+                  moduleName = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lizeyu/Blogs/gitHub%E4%B8%AA%E4%BA%BA%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81/objccn.io/%E6%9B%B4%E8%BD%BB%E9%87%8F%E7%9A%84viewController/Optimize/%E6%9B%B4%E8%BD%BB%E9%87%8F%E7%9A%84viewController/Classes/Controlles/XBTableViewController.m"
+                  timestampString = "481270924.118114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "75">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController/Classes/Controlles/XBTableViewController.m"
+            timestampString = "481270917.740397"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController/Classes/Views/XBPhotoCell.m"
+            timestampString = "481270945.21811"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "-configureForPhoto:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x66f4;&#x8f7b;&#x91cf;&#x7684;viewController/Classes/Views/XBPhotoCell.m"
+            timestampString = "481270946.089238"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "-configureForPhoto:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
